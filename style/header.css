@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+
+
+
+header {
+    margin-top: 1%;
+}
+
+.header {
+    color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo svg path {
+    transition: fill .3s ease;
+    cursor: pointer;
+}
+
+.logo:hover svg path {
+    fill: #E2EA6E;
+}
+
+.links {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    transition: color .3s ease, transform .3s ease;
+    text-align: center;
+}
+
+.links:hover {
+    color: #ADB908;
+}
+
+.links:active {
+    transform: scale(0.95);
+    color: #ffffff;
+}
+
+.login {
+    font-family: 'Inter', sans-serif;
+    color: white;
+    padding: 10px 57px;
+    border-radius: 16px;
+    background: linear-gradient(144deg, #E2EA6E 0%, #ADB908 100%);
+    backdrop-filter: blur(2px);
+    font-size: 16px;
+    border: none;
+    transition: transform .2s ease, color .5s ease, background-color .5s ease;
+}
+
+.login:hover {
+    color: #ADB908;
+    background: #ffffff;
+}
+
+.login:active {
+    transform: scale(0.95);
+}
+
+.box {
+    list-style-type: none;
+    display: grid;
+}
+
+.box_links {
+    grid-template-columns: repeat(5, 1fr);
+    gap: 48px;
+}
+
+.box_icons {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+}
+
+
+.icons {
+    cursor: pointer;
+    transition: transform .3s ease;
+}
+
+.icons:active {
+    transform: scale(0.95);
+}
+
+.icons svg path {
+    transition: fill .3s ease;
+}
+
+.icons:hover svg path {
+    fill: #ADB908;
+}
