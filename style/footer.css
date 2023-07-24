@@ -1,0 +1,23 @@
+/* footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.block__right {
+    display: none;
+}
+
+img {
+    object-position: center;
+    overflow: hidden;
+}
+
+@media (max-width:1300px) {
+    .block__right {
+        display: flex;
+        justify-content: center;
+        overflow: hidden;
+        object-position: center;
+    }
+} */
